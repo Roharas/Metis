@@ -20,7 +20,7 @@ namespace Metis.Selenium.PageObjects
         private By ByUserNameInput => By.CssSelector("[id='username']");
         private By ByPassWordInput => By.CssSelector("[id*='password']");
         private By ByLoginSubmit => By.ClassName("login__submit");
-        private By ByClass => By.ClassName("movies");
+        private By ByMovies => By.ClassName("movies");
 
         public MainPage(TestdataCollection testdataCollection, IOptions<EnvironmentConfig> environmentOptions)
         {
@@ -42,7 +42,7 @@ namespace Metis.Selenium.PageObjects
 
         public void AssertMoviesPageToBeDisplayed()
         {
-            _testdataCollection.Driver.SearchForElement(BySneakPreview);
+            _testdataCollection.Driver.SearchForElement(ByMovies);
         }
 
         public void NavigateToMainPage()
