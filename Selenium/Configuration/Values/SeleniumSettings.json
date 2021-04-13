@@ -1,0 +1,9 @@
+{
+  "Browser": {
+    "Browser": "Firefox",
+    "AcceptInsecureCertificates": "false",
+    "DisableNotifications": "false",
+    "HideToolBarWhenFullScreen": "true",
+    "PageLoadStrategy": "Normal"
+  }
+}

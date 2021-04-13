@@ -1,0 +1,7 @@
+{
+  "Environment": {
+    "FrontendUrl": "http://localhost",
+    "UsersApi": "http://localhost:4242",
+    "MoviesApi": "http://localhost:4243"
+  }
+}
