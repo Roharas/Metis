@@ -1,7 +1,7 @@
 # Metis
 PoC Testframework
 
-Made in visual stidio
+Made in visual studio
 Install specflow addon for visualstudio so that featurefiles work correctly
 
 For now no ci implementation 
