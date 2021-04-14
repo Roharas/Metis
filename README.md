@@ -1,9 +1,9 @@
 # Metis
 PoC Testframework
 
-Made in visual studio
-Install specflow addon for visualstudio so that featurefiles work correctly
+When running visual studio it is reccomended to install the Specflow extension. 
 
-For now no ci implementation 
-To run a test open build the solution so that tests appear in the testexplorer and then either run or debug
-Nunit testrunner will be used
+The framework has no CI implementation yet.
+To run the tests you can use the (unit)test explorer. 
+The tests will be grouped per feature file, per feature file there will be a test for each scenario listed. 
+When a new test is added you will need to build the solution before the new test becomes visible in the testexplorer. 
